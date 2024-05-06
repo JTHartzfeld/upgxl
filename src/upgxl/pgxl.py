@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 
 from gptk import Singleton
 
-class PGXL(Singleton):
+class UPGXL(Singleton):
     '''
     '''
     

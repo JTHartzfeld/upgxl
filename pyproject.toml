@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "upgxl"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
 
   { name="J.T. Hartzfeld", email="johnathan.t.hartzfeld@gmail.com" },
@@ -13,8 +13,8 @@ authors = [
 description = "The Unofficial PyGame eXtension Library: a set of tools to make better PyGames"
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.9"
-dependencies = ["auto_all >= 1.4.1", "platformdirs >= 4.2.0", "gptk>=2.12"]
+requires-python = ">=3.11"
+dependencies = ["auto_all >= 1.4.1", "platformdirs >= 4.2.0", "pygame>=2.1.2", "gptk>=2.12"]
 classifiers = ["Programming Language :: Python :: 3",
 "License :: OSI Approved :: MIT License",
 "Operating System :: OS Independent",
